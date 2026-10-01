@@ -3,6 +3,15 @@
     <channel>
         <title>Annotake</title>
         <item>
+            <title>Annotake 0.2.0 (102)</title>
+            <pubDate>Thu, 01 Oct 2026 18:21:57 +0000</pubDate>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>A clearer practice run: the first run has you record a few clicks in another app, then comes back with the drop box. And the install command only ever touches Annotake itself.</p>]]></description>
+            <enclosure url="https://github.com/fayzan123/annotake-releases/releases/download/v0.2.0-102/Annotake.zip" length="3243403" type="application/octet-stream" sparkle:edSignature="W3PF7n4PpdziHTpAXmxUP35ZQut0kp5FunsabaPqBsNZ13XpUq7gpRmjc/6DgHh3VvjMO0p17eQXWvB+phpWCw=="></enclosure>
+        </item>
+        <item>
             <title>Annotake 0.2.0 (100)</title>
             <pubDate>Thu, 01 Oct 2026 17:58:03 +0000</pubDate>
             <sparkle:version>100</sparkle:version>
