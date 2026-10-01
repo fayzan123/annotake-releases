@@ -1,7 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Annotake</title>
+        <item>
+            <title>Annotake 0.2.0 (99)</title>
+            <pubDate>Thu, 01 Oct 2026 17:02:53 +0000</pubDate>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>The first run now asks for each permission at its own step, and an upgrade from Flipbook no longer skips them.</p>]]></description>
+            <enclosure url="https://github.com/fayzan123/annotake-releases/releases/download/v0.2.0-99/Annotake.zip" length="3242475" type="application/octet-stream" sparkle:edSignature="Jrk/8yBGUhpvAOVAMnBViCULB8OiTbYu88N5UxPeQoUlO6haq8NeD3fHHb+cpm5b+kHTyC2DMqQ7PjQlxv/IAQ=="></enclosure>
+        </item>
         <item>
             <title>Annotake 0.2.0 (93)</title>
             <pubDate>Thu, 01 Oct 2026 16:35:40 +0000</pubDate>
