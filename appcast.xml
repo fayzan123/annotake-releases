@@ -3,6 +3,15 @@
     <channel>
         <title>Annotake</title>
         <item>
+            <title>Annotake 0.2.0 (105)</title>
+            <pubDate>Thu, 01 Oct 2026 19:04:34 +0000</pubDate>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Send Feedback now reaches the developer directly.</p>]]></description>
+            <enclosure url="https://github.com/fayzan123/annotake-releases/releases/download/v0.2.0-105/Annotake.zip" length="3243458" type="application/octet-stream" sparkle:edSignature="dqR/tLhvhozrTd7jaWVDyNw1QcdtbtgEgDitOj9gcfTI3n6fa7DALLYwi7XvXABSazYd9kklFMniIxWq1owIDg=="></enclosure>
+        </item>
+        <item>
             <title>Annotake 0.2.0 (102)</title>
             <pubDate>Thu, 01 Oct 2026 18:21:57 +0000</pubDate>
             <sparkle:version>102</sparkle:version>
