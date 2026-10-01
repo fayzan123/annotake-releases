@@ -1,39 +1,47 @@
-# Flipbook early builds
+# Annotake
 
-Flipbook is a Mac menu-bar app. Hold or double-tap Right ⌘, reproduce a bug, and drag the card it gives you into Claude Code, Cursor, or ChatGPT: one screenshot per step, each captioned with what you did.
+Annotake is a Mac menu-bar app for showing your coding agent exactly what happened. Double-tap Right ⌘, reproduce a bug, and drag the card it gives you into Claude Code, Cursor, or ChatGPT: one screenshot per step, each captioned with what you clicked.
 
-These are early builds for friends who are trying it out. This repo holds the app and its installer only; there's no source code here.
+This repo holds the app's releases and its installer only; there's no source code here.
 
-## Install or update
+## Install
 
-Paste this into Terminal:
+[Download Annotake.dmg](https://github.com/fayzan123/annotake-releases/releases/latest/download/Annotake.dmg), open it, and drag Annotake to Applications.
+
+Or paste this into Terminal:
 
 ```
-curl -fsSL https://raw.githubusercontent.com/fayzan123/flipbook-releases/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/fayzan123/annotake-releases/main/install.sh | sh
 ```
 
-It downloads the latest build, checks its signature, puts Flipbook in your Applications folder, and opens it. Run the same line again to update; your permissions carry over.
+It downloads the latest release, checks its signature, puts Annotake in your Applications folder, and opens it.
 
-Flipbook needs an Apple silicon Mac (M1 or later) with macOS 15 or later.
+Annotake needs macOS 15 or later, on Apple silicon or Intel. It updates itself.
 
 ## First run
 
-Flipbook asks for three permissions. After you grant Screen Recording and Input Monitoring, it offers Quit & Reopen, because macOS applies those two only after a relaunch.
+Annotake shows what it does, then asks for three permissions, one at a time:
 
-- **Screen Recording** lets it record.
-- **Input Monitoring** lets it notice Right ⌘, clicks, and keys while you record. It never records what you type.
-- **Accessibility** lets it name the buttons you click, and keep ⌘ out of your clicks while you hold the key.
+- **Accessibility**, so it can name the buttons you click, and keep ⌘ out of your clicks while you hold the key.
+- **Input Monitoring**, so it can notice Right ⌘, and your clicks and keys while you record. It never records what you type.
+- **Screen Recording**, so it can capture your screen while you record.
 
-Then double-tap Right ⌘, click through something, and double-tap again. A card appears at the bottom right of your screen; drag it into a chat. Holding Right ⌘ works too, for quick ones, and Right ⌘ + Esc cancels.
+macOS turns on Input Monitoring and Screen Recording only after a relaunch, so Annotake offers Quit & Reopen and comes back where it was. Then a practice run: double-tap Right ⌘, click through something, double-tap again, and drag the card into the window. Holding Right ⌘ works too, for quick ones, and Right ⌘ + Esc cancels.
 
 ## Privacy
 
-This build never connects to the internet. Recordings stay on your Mac in `~/Pictures/Flipbook`, and move to the Trash after 30 days.
+Nothing you record leaves your Mac. Recordings stay in `~/Pictures/Annotake`, and move to the Trash after 30 days.
+
+Annotake checks for updates once a day, and that check sends only its version.
 
 ## Feedback
 
-Tell Fayzan what happened. If something broke, send the log too: `open -R ~/Library/Logs/Flipbook.log` shows it in Finder. The log never contains button names, window titles, or keys.
+Choose **Send Feedback…** in Annotake's menu-bar menu. It opens an email to feedback@annotake.app with a short report attached: the app and macOS versions, which permissions are on, the recent log, and the latest crash report if there is one. The log never contains button names, window titles, or keys, and nothing is sent until you send the email.
 
 ## Uninstall
 
-Quit Flipbook from its menu-bar icon and delete it from Applications. To remove its permissions as well, run `tccutil reset All com.fayzanmalik.flipbook`.
+Quit Annotake from its menu-bar icon and drag it from Applications to the Trash. To remove its permissions as well, run:
+
+```
+tccutil reset All com.fayzanmalik.annotake
+```

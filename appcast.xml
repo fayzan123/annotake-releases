@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Annotake</title>
+        <item>
+            <title>Annotake 0.2.0 (93)</title>
+            <pubDate>Thu, 01 Oct 2026 16:35:40 +0000</pubDate>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Annotake: the new name, a new first run, and signed, notarized downloads.</p>]]></description>
+            <enclosure url="https://github.com/fayzan123/annotake-releases/releases/download/v0.2.0-93/Annotake.zip" length="3242096" type="application/octet-stream" sparkle:edSignature="5a3LRnMCu3AmC8j8L/Oe6cyx10VR2QavG+HueXn1rb5K93JCo01Z2yUtkMwXBmQZOg/bKLK9PpSbF07aJqhpBw=="></enclosure>
+        </item>
+    </channel>
+</rss>
