@@ -3,6 +3,15 @@
     <channel>
         <title>Annotake</title>
         <item>
+            <title>Annotake 0.2.0 (132)</title>
+            <pubDate>Sun, 11 Oct 2026 21:27:35 +0000</pubDate>
+            <sparkle:version>132</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Long recordings no longer close Annotake when you drag their card. In a card's filmstrip, click a frame or press Space to see it full screen: ← and → flip through the frames, ⌫ removes or restores one, and Return applies your changes.</p>]]></description>
+            <enclosure url="https://github.com/fayzan123/annotake-releases/releases/download/v0.2.0-132/Annotake.zip" length="3284818" type="application/octet-stream" sparkle:edSignature="Str4z4WAiMHC9lNn/19YzMKY8zLaWAheFDmFA2Y9f2UXdb9MlqIZNOuLZC7dxeUtb1k0ZGf56gcExrzJTh8XDA=="></enclosure>
+        </item>
+        <item>
             <title>Annotake 0.2.0 (105)</title>
             <pubDate>Thu, 01 Oct 2026 19:04:34 +0000</pubDate>
             <sparkle:version>105</sparkle:version>
