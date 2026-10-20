@@ -3,6 +3,15 @@
     <channel>
         <title>Annotake</title>
         <item>
+            <title>Annotake 0.3.0 (185)</title>
+            <pubDate>Tue, 20 Oct 2026 03:03:26 +0000</pubDate>
+            <sparkle:version>185</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Annotake can now email you about security fixes and important changes, if you want. The email is optional: skip it and everything works the same. Also new: Annotake shows in the Dock while its windows are open, and the email field suggests a fix for likely typos.</p>]]></description>
+            <enclosure url="https://github.com/fayzan123/annotake-releases/releases/download/v0.3.0-185/Annotake.zip" length="3466985" type="application/octet-stream" sparkle:edSignature="5MuLDKebNOOAMTE+35Ur5Z6JunyywR+KUbHuC7b4S+vS4eTQG/8VqjaCLGHaFv8EE1nXvyTYgxDIN+7t1lCHDQ=="></enclosure>
+        </item>
+        <item>
             <title>Annotake 0.2.0 (132)</title>
             <pubDate>Sun, 11 Oct 2026 21:27:35 +0000</pubDate>
             <sparkle:version>132</sparkle:version>
