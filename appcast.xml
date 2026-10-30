@@ -3,6 +3,15 @@
     <channel>
         <title>Annotake</title>
         <item>
+            <title>Annotake 0.3.1 (249)</title>
+            <pubDate>Fri, 30 Oct 2026 04:27:31 +0000</pubDate>
+            <sparkle:version>249</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Annotake now checks for updates through annotake.app, which counts how many Macs check each day, and on which version, without identifying yours. Nothing else changes.</p>]]></description>
+            <enclosure url="https://github.com/fayzan123/annotake-releases/releases/download/v0.3.1-249/Annotake.zip" length="3466969" type="application/octet-stream" sparkle:edSignature="zrlqESK+Sd1+AxuPa6FHJ+8iJyyBrunyza8NMapn83ehU8Ga5U8tXD2m7pMIb1cp1B1Cq2sKA3jMb1hLxJAXDQ=="></enclosure>
+        </item>
+        <item>
             <title>Annotake 0.3.0 (185)</title>
             <pubDate>Tue, 20 Oct 2026 03:03:26 +0000</pubDate>
             <sparkle:version>185</sparkle:version>
